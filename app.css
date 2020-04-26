@@ -1,0 +1,114 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    font-family: Palatino, URW Palladio L, serif;
+    /*background-image: url("assets/light-pink-clouds-hi.png");
+    background-color: linen;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: initial;*/
+}
+
+h1 {
+    margin: 20px;
+    padding: 10px;
+}
+
+h1:hover {
+    color: lightcoral;
+}
+
+.score {
+    margin: 5px;
+    padding: 5px;
+}
+
+#score-panel{
+    text-decoration-color: dimgrey;
+}
+
+section {
+    margin: 0 auto;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    
+  }
+
+li.card {
+    background-color: ghostwhite;
+    width: 60px;
+    height: 65px;
+    margin: 15px;
+    border-radius: 25px;
+    padding: 20px;
+    
+}
+
+
+.hide {
+    visibility: hidden;
+}
+
+#attribute{
+    font-size: 9px;
+}
+.clicked{
+    visibility: visible;
+}
+
+.match{
+    visibility: visible; 
+    
+}
+
+.open{
+    visibility: visible; 
+    
+}
+
+#new-game{
+    font-size: 3rem;
+}
+
+#score-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#score-text, #best-score-text{
+    
+}
+
+.matched{
+    visibility: visible;
+}
+
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+#new-game:hover{
+    color: lightcoral;
+    cursor: pointer;
+}
